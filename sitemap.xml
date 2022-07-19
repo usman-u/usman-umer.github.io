@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.usman.network/posts/bgp-rpki-roa/</loc>
+    <lastmod>2022-04-16T22:56:49+01:00</lastmod>
+  </url><url>
     <loc>https://blog.usman.network/posts/</loc>
-    <lastmod>2022-04-12T20:29:16+01:00</lastmod>
+    <lastmod>2022-04-16T22:56:49+01:00</lastmod>
   </url><url>
     <loc>https://blog.usman.network/</loc>
-    <lastmod>2022-04-12T20:29:16+01:00</lastmod>
+    <lastmod>2022-04-16T22:56:49+01:00</lastmod>
   </url><url>
     <loc>https://blog.usman.network/posts/usmannet/</loc>
     <lastmod>2022-04-12T20:29:16+01:00</lastmod>
