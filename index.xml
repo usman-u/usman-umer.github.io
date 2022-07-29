@@ -9,7 +9,17 @@
       <link>https://blog.usman.network/image/pfp.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 Jul 2022 21:37:00 +0100</lastBuildDate><atom:link href="https://blog.usman.network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 20:29:16 +0100</lastBuildDate><atom:link href="https://blog.usman.network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UsmanNet 2022 - An Overview of my Network</title>
+      <link>https://blog.usman.network/posts/usmannet/</link>
+      <pubDate>Thu, 28 Jul 2022 20:29:16 +0100</pubDate>
+      
+      <guid>https://blog.usman.network/posts/usmannet/</guid>
+      <description>click to enlarge
+ Network Infrastructure Breakdown:  My network mainly consists of two Ubiquiti EdgeRouter Xs, two Cisco Catalyst switches, and a VyOS cloud VPS. WireGuard is used as the VPN tunneling protocol, to connect the Edgerouters and the Vyos VPS. BGP is used as the main routing protocol. I participate in the DN42 BGP project, so my Autonomous System Number (ASN) is AS4242421869. eBGP is used on edge.dn42.lan, to connect to the BGP upstream &amp;amp; downstream peers, providing access to the DN42 private network.</description>
+    </item>
+    
     <item>
       <title>DN42 Part 3: BGP ROA/RPKI Filtering using Docker</title>
       <link>https://blog.usman.network/posts/bgp-rpki-roa/</link>
@@ -19,17 +29,6 @@
       <description>What is ROA/RPKI? Route Origin Authentication (ROA) - is a way to verify whether an IP prefix advertised, is actually owned by the Autonomous System (AS) that advertised it.
 Resource Public Key Infrastructure (RPKI) - is a protocol that facilitates the exchange of ROA and other related information between ASes.
  How does ROA/RPKI work?   Essentially, there are central databases which contain a list of all ASes and the IP prefixes that they are allowed to advertise.</description>
-    </item>
-    
-    <item>
-      <title>UsmanNet 2022</title>
-      <link>https://blog.usman.network/posts/usmannet/</link>
-      <pubDate>Tue, 12 Apr 2022 20:29:16 +0100</pubDate>
-      
-      <guid>https://blog.usman.network/posts/usmannet/</guid>
-      <description>click to enlarge
- Intro My network has changed quite a bit recently. In this post, I&amp;rsquo;ll explain different components of my network and how everything fits together.
- Network Infrastructure:  There are two sites and a cloud VPS, interconnected with Wireguard point to point VPNs, each with their own BGP AS. I chose to use BGP as it allows me to have more control over the segregation of my networks, compared to using areas in OSPF (or other IGP).</description>
     </item>
     
     <item>
